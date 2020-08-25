@@ -2,7 +2,7 @@ let ourSkills = document.querySelector(".skills");
 
 window.onscroll = function () {
 
-     // Skills Offset Top
+
     let skillsOffsetTop = ourSkills.offsetTop;
 
     // Skills Outer Height
@@ -22,7 +22,7 @@ window.onscroll = function () {
 
         skill.style.width = skill.dataset.progress;
 
-    });
+        });
 
     }
 

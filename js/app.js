@@ -2,7 +2,7 @@ let ourSkills = document.querySelector(".skills");
 
 window.onscroll = function () {
 
-     // Skills Offset Top
+
     let skillsOffsetTop = ourSkills.offsetTop;
 
     // Skills Outer Height
