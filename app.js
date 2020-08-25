@@ -5,13 +5,12 @@ window.onscroll = function () {
 
     let skillsOffsetTop = ourSkills.offsetTop;
 
-    // Skills Outer Height
+    
     let skillsOuterHeight = ourSkills.offsetHeight;
 
-    // Window Height
     let windowHeight = this.innerHeight;
 
-    // Window ScrollTop
+
     let windowScrollTop = this.pageYOffset;
 
     if (windowScrollTop > (skillsOffsetTop + skillsOuterHeight - windowHeight)) {
@@ -22,7 +21,7 @@ window.onscroll = function () {
 
         skill.style.width = skill.dataset.progress;
 
-        });
+    });
 
     }
 
